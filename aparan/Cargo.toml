@@ -1,0 +1,9 @@
+[package]
+name = "aparan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[package.metadata.nix]
+build = true
