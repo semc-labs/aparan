@@ -1,0 +1,15 @@
+[package]
+name = "aparan-macros"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+proc-macro2 = "1.0.39"
+quote = "1.0.18"
+syn = { version = "1.0.96", features = ["full"] }
+
+[lib]
+proc-macro = true
+
+[dev-dependencies]
+aparan = { path = "../aparan" }

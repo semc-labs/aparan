@@ -1,3 +1,5 @@
 [workspace]
 members = [ "aparan"
-          , "aparan-*" ]
+          , "aparan-macros"
+
+          , "examples/basic" ]

@@ -1,8 +1,11 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
+pub use aparan_macros::main;
+
+pub mod system;
+
+pub mod prelude {
+    pub use crate::system::System;
+}
+
+pub mod exports {
+    pub use tokio;
 }
