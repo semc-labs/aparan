@@ -8,7 +8,7 @@ proc-macro2 = "1.0.42"
 
 quote = "1.0.20"
 
-syn = { version = "1.0.97", features = ["full"] }
+syn = { version = "1.0.99", features = ["full"] }
 
 
 [lib]
