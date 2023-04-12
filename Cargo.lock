@@ -17,7 +17,7 @@ dependencies = [
  "aparan",
  "proc-macro2",
  "quote",
- "syn 1.0.109",
+ "syn 2.0.14",
 ]
 
 [[package]]
@@ -207,9 +207,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.10"
+version = "2.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5aad1363ed6d37b84299588d62d3a7d95b5a5c2d9aad5c85609fda12afaa1f40"
+checksum = "fcf316d5356ed6847742d036f8a39c3b8435cac10bd528a4bd461928a6ab34d5"
 dependencies = [
  "proc-macro2",
  "quote",
