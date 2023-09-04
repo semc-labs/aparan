@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 proc-macro2 = "1.0.66"
 
-quote = "1.0.32"
+quote = "1.0.33"
 
 syn = { version = "2.0.31", features = ["full"] }
 
